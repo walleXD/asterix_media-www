@@ -1,0 +1,7 @@
+extends(src='layout.sgr')
+  block(name='content')
+    include(src='_landing.sgr')
+    include(src='_about.sgr')
+    include(src='_current-projects.sgr')
+    include(src='_old-projects.sgr')
+    include(src='_contact.sgr')

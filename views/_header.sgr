@@ -1,0 +1,16 @@
+header
+  nav(class='blue')
+    div(class='nav-wrapper container')
+      a(href='#landing' class='brand-logo') Asterix*
+      a(href='#' data-activates='mobile-demo' class='button-collapse')
+        i(class='material-icons') menu
+      ul(class='right hide-on-med-and-down')
+        li: a(href='#about') About Us
+        li: a(href='#current-projects') Current Projects
+        li: a(href='#past-projects') Past Projects
+        li: a(href='#contact') Contact Us
+      ul(class='side-nav' id='mobile-demo')
+        li: a(href='#about') About Us
+        li: a(href='#current-projects') Current Projects
+        li: a(href='#past-projects') Past Projects
+        li: a(href='#contact') Contact Us
