@@ -1,3 +1,16 @@
-footer
-  div
-    h1 Footer
+footer( class='page-footer blue')
+  div(class='container')
+    div(class='row')
+      div(class='col m8 s12')
+        h5(class='white-text') Our Mission
+        p(class='grey-text text-lighten-4') asdasdasdasd asdasd asdasd
+      div(class='col m4 offset-12 s-12')
+        h5(class='white-text') Let's Talk!
+        ul
+          li: a(class='grey-text text-lighten-3' href='') Facebook
+          li: a(class='grey-text text-lighten-3' href='') Twitter
+          li: a(class='grey-text text-lighten-3' href='') Instagram
+  div(class='footer-copyright')
+    div(class='container')
+      | © 2017 Asterix* Media
+      a(class='grey-text text-lighten-4 right') Asterix* Creative
