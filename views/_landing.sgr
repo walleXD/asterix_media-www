@@ -1,2 +1,11 @@
-section(id='landing')
-  div 
+section(id='landing' class='blue')
+  div(class='cover-photo container')
+
+    div(class='row logo-holder')
+      div(class='col offset-l2 l8 s12 m10 offset-m1')
+        img(src='/img/full_logo.jpg' class='responsive-img')
+
+    div(class='row button-holder')
+      div(class='col offset-s5 s2')
+        a(class='btn-floating btn-large waves-effect waves-light red' href='#about')
+          i(class='material-icons') arrow_drop_down_circle
