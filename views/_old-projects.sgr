@@ -14,7 +14,7 @@ section(id='old-projects' class='grey lighten-4')
                 i(class='material-icons activator right') more_vert
               p: a(href='http://studentmediacon.org' target='_blank') More Here
             div(class='card-reveal')
-              span(class='card-title grey-text text-darken-4') SMC'17
+              span(class='card-title grey-text text-darken-4') SMC'16
                 i(class='material-icons right') close
               p
                 | Student Media Con (SMC) is a conference
