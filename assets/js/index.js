@@ -1,4 +1,5 @@
 import $ from 'jquery'
-import sideNav from 'materialize-css/dist/js/materialize'
+import 'materialize-css/dist/js/materialize'
 
 $('.button-collapse').sideNav()
+$('#textarea1').trigger('autoresize')

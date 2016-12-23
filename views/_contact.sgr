@@ -5,18 +5,39 @@ section(id='contact')
         div(class='center-align'): h1 Contact Us
     div(class='section-content')
       div(class='row')
-        div(class='col s12 m6 offset-m3')
+        div(class='col s12 m4 l4 offset-l4 offset-m4')
           div(class='card')
             div(class='card-content center-align')
               span(class='card-title') Send Us A Meesage
               p
                 | If you have any ideas,
                 | questions or concerns,
-                | send us a quick message!
+                | let's talk!
             div(class='card-action')
               div(class='row')
-                form(class='col s12')
+                form(class='col s12' action='https://formspree.io/theasterix.info@gmail.com' method='POST')
                   div(class='row')
-                    div(class='input-field col s12')
-                      input(placholder='First Name' id='first_name' type='test' class='validate')
-                      label(for='first_name') First Name
+                    div(class='input-field col s12 ')
+                       i(class='material-icons prefix') account_circle
+                       input(name='contacter-first-name' id='contacter-first-name' type='text' class='active validate' required)
+                       label(for='contacter-first-name') First Name
+                  div(class='row')
+                    div(class='input-field col s12 ')
+                       i(class='material-icons prefix') email
+                       input(name='contacter-email' id='contacter-email' type='email' class='active validate' required)
+                       label(for='contacter-email') Email
+                  div(class='row')
+                    div(class='input-field col s12 ')
+                       i(class='material-icons prefix') phone
+                       input(name='contacter-phone' id='contacter-phone' type='tel' class='active validate' required)
+                       label(for='contacter-phone') Telephone
+                  div(class='row')
+                    div(class='input-field col s12 ')
+                      i(class='material-icons prefix') message
+                      textarea(name='contacter-message' id='contacter-message' class='materialize-textarea')
+                      label(for='contacter-message') Message
+                  div(class='row')
+                    div(class='center-align')
+                      button(type='submit' id='contacter-submit' class='waves-effect waves-light btn')
+                        i(class='material-icons right') send
+                        | Submit
