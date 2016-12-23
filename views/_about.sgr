@@ -1,3 +1,14 @@
-section(id='about')
-  div
-    h1 about
+section(id='about' class='grey lighten-4')
+  div(class='content')
+    div(class='section-title')
+      div(class='row')
+        div(class='center-align'): h1 About
+    div(class='section-content')
+      div(class='row')
+        div(class='col s12 m8 offset-m2 align-center')
+          p
+            | asdasdasd asdasd acczadsvasdv asdasdasd asdasd acczadsvasdv asdasdasd asdasd acczadsvasdv
+            | asdasdasdasdasd asdasd acczadsvasdv asdasdasd asdasd acczadsvasdv asdasdasd asdasd acczadsvasdv
+            | asdasdasd asdasd acczadsvasdv asdasdasd asdasd acczadsvasdv asdasdasd asdasd acczadsvasdv
+            | asdasdasd asdasd asdsadacczadsvasdv asdasdasd asdasd acczadsvasdv asdasdasd asdasd acczadsvasdv
+            | asdasdasd asdasdasdsd acczadsvasdv asdasdasd asdasd acczadsvasdv asdasdasd asdasd acczadsvasdv
