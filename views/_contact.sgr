@@ -19,8 +19,8 @@ section(id='contact')
                   div(class='row')
                     div(class='input-field col s12 ')
                        i(class='material-icons prefix') account_circle
-                       input(name='contacter-first-name' id='contacter-first-name' type='text' class='active validate' required)
-                       label(for='contacter-first-name') First Name
+                       input(name='contacter-name' id='contacter-first-name' type='text' class='active validate' required)
+                       label(for='contacter-name') Name
                   div(class='row')
                     div(class='input-field col s12 ')
                        i(class='material-icons prefix') email
