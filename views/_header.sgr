@@ -1,7 +1,8 @@
-header(class='navbar-fixed')
+header(id='header' class='navbar-fixed')
   nav(class='blue')
     div(class='nav-wrapper container')
-      a(href='#landing' class='brand-logo') Asterix*
+      a(href='#landing' class='brand-logo')
+        img(src='img/compact_logo.jpg')
       a(href='#' data-activates='mobile-demo' class='button-collapse')
         i(class='material-icons') menu
       ul(class='right hide-on-med-and-down')
