@@ -1,15 +1,21 @@
-footer( class='page-footer blue')
+footer(id='footer' class='page-footer blue')
   div(class='container')
     div(class='row')
-      div(class='col m8 s12')
+      div(class='col m7 s12')
         h5(class='white-text') Our Mission
-        p(class='grey-text text-lighten-4') asdasdasdasd asdasd asdasd
-      div(class='col m4 offset-12 s-12')
+        p(class='grey-text text-lighten-4 section-content') {{ data.index.sections.footer.blurb }}
+      div(class='col m4 offset-m1 offset-12 s-12')
         h5(class='white-text') Let's Talk!
         ul
-          li: a(class='grey-text text-lighten-3' href='') Facebook
-          li: a(class='grey-text text-lighten-3' href='') Twitter
-          li: a(class='grey-text text-lighten-3' href='') Instagram
+          li: a(class='grey-text text-lighten-3' href='')
+            span: i(class='mdi mdi-facebook-box')
+            | Facebook
+          li: a(class='grey-text text-lighten-3' href='')
+            span: i(class='mdi mdi-twitter-box')
+            | Twitter
+          li: a(class='grey-text text-lighten-3' href='')
+            span: i(class='mdi mdi-medium')
+            | Medium
   div(class='footer-copyright')
     div(class='container')
       | © 2017 Asterix* Media
