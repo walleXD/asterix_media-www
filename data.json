@@ -3,7 +3,38 @@
 		"about": {
 			"blurb": "At Asterix* we reach for the stars and don't hold back. We love stories, and the stories behind the stories. Most of all, we value bringing voices that are underrepresented in the mainstream media to the forefront. Asterix* provides the platform and our talented team of volunteers produce the content."
 		},
-		"current-projects": {},
-		"old-projects": {}
+		"current_projects": [
+			{
+				"name": "Student Media Con 2017",
+				"name_short": "SMC'17",
+				"link": "http://studentmediacon.org",
+				"icon": "smc17_logo.jpg",
+				"blurb": "Student Media Con (SMC) is a conference open to student media organizations across the CUNY system and throughout the NYC area.The purpose of this conference is to provide a forum for student media organizations to get together, collaborate, and discover new ways to make these institutions stronger, more diverse, and more successful in the long run."
+			},
+			{
+				"name": "Young & Talented Stories",
+				"name_short": "YAT Stories",
+				"link": "http://yatstories.org",
+				"icon": "smc17_logo.jpg",
+				"blurb": "Student Media Con (SMC) is a conference open to student media organizations across the CUNY system and throughout the NYC area.The purpose of this conference is to provide a forum for student media organizations to get together, collaborate, and discover new ways to make these institutions stronger, more diverse, and more successful in the long run."
+			}
+		],
+		"old_projects": [
+			{
+				"name": "Student Media Con 2016",
+				"name_short": "SMC'16",
+				"link": "http://studentmediacon.org",
+				"icon": "smc17_logo.jpg",
+				"blurb": "Student Media Con (SMC) is a conference open to student media organizations across the CUNY system and throughout the NYC area.The purpose of this conference is to provide a forum for student media organizations to get together, collaborate, and discover new ways to make these institutions stronger, more diverse, and more successful in the long run."
+			}
+		],
+		"footer": {
+			"blurb": "We are scrappy & young. We believe in change but more importantly change starts from within us. Thus we believe in action more than anything. We believe that by telling stories, we can change the world, one mind at a time!",
+			"social_links": {
+				"facebook": "",
+				"twitter": "",
+				"medium": ""
+			}
+		}
 	}
 }
