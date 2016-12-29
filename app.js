@@ -4,7 +4,11 @@ const htmlStandards = require('reshape-standard')
 const cssStandards = require('spike-css-standards')
 const jsStandards = require('babel-preset-latest')
 const pageId = require('spike-page-id')
+const Records = require('spike-records')
+
 const ProvidePlugin = require('webpack').ProvidePlugin
+
+const data = {}
 
 module.exports = {
   devtool: 'source-map',
@@ -16,7 +20,7 @@ module.exports = {
   reshape: (ctx) => {
     return htmlStandards({
       webpack: ctx,
-      locals: { pageId: pageId(ctx), foo: 'bar' }
+      locals: { pageId: pageId(ctx), foo: 'bar', data }
     })
   },
   postcss: ctx => cssStandards({ webpack: ctx }),
@@ -31,6 +35,10 @@ module.exports = {
       $: 'jquery',
       jQuery: 'jquery',
       'window.jQuery': 'jquery'
+    }),
+    new Records({
+      addDataTo: data,
+      index: { file: 'data.json' }
     })
   ]
 }

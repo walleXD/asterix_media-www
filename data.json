@@ -1,13 +1,9 @@
 {
-	"page": {
-		"index": {
-			"sections": {
-				"about": {
-					"blurb": "At Asterix* we reach for the stars and don't hold back. We love stories, and the stories behind the stories. Most of all, we value bringing voices that are underrepresented in the mainstream media to the forefront. asterix* provides the platform and our talented team of volunteers produce the content."
-				},
-				"current-projects": {},
-				"old-projects": {}
-			}
-		}
+	"sections": {
+		"about": {
+			"blurb": "At Asterix* we reach for the stars and don't hold back. We love stories, and the stories behind the stories. Most of all, we value bringing voices that are underrepresented in the mainstream media to the forefront. Asterix* provides the platform and our talented team of volunteers produce the content."
+		},
+		"current-projects": {},
+		"old-projects": {}
 	}
 }
