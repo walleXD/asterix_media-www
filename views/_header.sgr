@@ -1,17 +1,17 @@
 header(id='header' class='navbar-fixed')
   nav(class='blue')
     div(class='nav-wrapper container')
-      a(href='#landing' class='brand-logo')
+      a(id='landing-link' class='brand-logo')
         img(src='img/compact_logo.png')
       a(href='#' data-activates='mobile-demo' class='button-collapse')
         i(class='material-icons') menu
       ul(class='right hide-on-med-and-down')
-        li: a(href='#about') About Us
-        li: a(href='#current-projects') Current Projects
-        li: a(href='#past-projects') Past Projects
-        li: a(href='#contact') Contact Us
+        li: a(id='about-link' href='#about') About Us
+        li: a(id='current-projects-link') Current Projects
+        li: a(id='past-projects-link') Past Projects
+        li: a(id='contact-link') Contact Us
       ul(class='side-nav' id='mobile-demo')
-        li: a(href='#about') About Us
-        li: a(href='#current-projects') Current Projects
-        li: a(href='#past-projects') Past Projects
-        li: a(href='#contact') Contact Us
+        li: a(id='about-link') About Us
+        li: a(id='current-projects-link') Current Projects
+        li: a(id='past-projects-link') Past Projects
+        li: a(id='contact-link') Contact Us
