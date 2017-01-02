@@ -1,0 +1,25 @@
+extends(src='layout.sgr')
+  block(name='navbar')
+    header(id='header' class='navbar-fixed')
+      nav(class='blue')
+        div(class='nav-wrapper container'): a(href='/' class='brand-logo center')
+          img(src='img/compact_logo.jpg')
+  block(name='content')
+    section(class='blue')
+
+      div(class='container section-content')
+
+        div(class='row')
+          div(class='col s12 m6 offset-m3')
+            div(class='card')
+              div(class='card-image')
+                img(src='/img/thanks_contact.gif')
+              div(class='card-content')
+                p
+                | Your message has been received successfully.
+                | Our army of voluteers are working diligently & tirelessly
+                | to answer your questions!
+
+        div(class='row center-align return-button')
+          a(href='/' class='btn-floating btn-large waves-effect waves-light red')
+            i(class='material-icons') home

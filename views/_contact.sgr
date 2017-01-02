@@ -36,6 +36,7 @@ section(id='contact')
                       i(class='material-icons prefix') message
                       textarea(name='contacter-message' id='contacter-message' class='materialize-textarea')
                       label(for='contacter-message') Message
+                  input(type='hidden' name='_next' value='thanks')
                   div(class='row')
                     div(class='center-align')
                       button(type='submit' id='contacter-submit' class='waves-effect waves-light btn  pink accent-2')

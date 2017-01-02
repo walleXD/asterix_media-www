@@ -1,3 +1,18 @@
+body
+  display: flex
+  min-height: 100vh
+  flex-direction: column
+
+main
+  flex: 1 0 auto
+
+.row
+  margin: 0
+
+h1
+  margin: 0
+  padding: 0
+
 #index
   & section
     margin: 0
@@ -5,13 +20,6 @@
 
     & .content
       padding: 5% 0
-
-    & h1
-      margin: 0
-      padding: 0
-
-    & .row
-      margin: 0
 
     & .section-title
       padding: 2%
@@ -39,6 +47,14 @@
     & .card
       padding: 5% 0
 
+#thanks
+  & section
+    & .section-content
+      padding: 2% 0
+
+      & .return-button
+        padding-top: 3%
+
 #header
   & .brand-logo
     height: 100%
@@ -46,3 +62,6 @@
     & img
       height: 100%
       width: auto
+
+#footer
+  margin-top: 0
