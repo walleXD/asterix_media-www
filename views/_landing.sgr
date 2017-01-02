@@ -3,7 +3,7 @@ section(id='landing' class='blue')
 
     div(class='row logo-holder')
       div(class='col offset-l2 l8 s12 m10 offset-m1')
-        img(src='/img/full_logo.jpg' class='responsive-img')
+        img(src='/img/landing_cover_photo.png' class='responsive-img')
 
     div(class='row button-holder')
       div(class='center-align')

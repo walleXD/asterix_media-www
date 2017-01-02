@@ -39,6 +39,7 @@
     "precommit": "npm run lint -s",
     "pretest": "npm run lint -s",
     "test": "NODE_ENV=test ava",
-    "build": "node_modules/.bin/spike compile"
+    "build": "./node_modules/.bin/spike compile",
+    "dev": "./node_modules/.bin/spike watch"
   }
 }
