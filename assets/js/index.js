@@ -9,22 +9,14 @@ const scrollToAnchor = aid => {
   $('html,body').animate({scrollTop: aTag.offset().top}, 'slow')
 }
 
-$('#landing-link').click(() => {
-  scrollToAnchor('#landing')
-})
+$('#landing-link').click(() => scrollToAnchor('#landing'))
 
-$('#past-projects-link').click(() => {
-  scrollToAnchor('#old-projects')
-})
+$('#past-projects-link').click(() => scrollToAnchor('#old-projects'))
 
-$('#current-projects-link').click(() => {
-  scrollToAnchor('#current-projects')
-})
+$('#current-projects-link').click(() => scrollToAnchor('#current-projects'))
 
-$('#about-link').click(event => {
-  scrollToAnchor('#about')
-})
+$('#contact-link').click(() => scrollToAnchor('#contact'))
 
-$('#contact-link').click(() => {
-  scrollToAnchor('#contact')
-})
+$('#about-link').click(() => scrollToAnchor('#about'))
+
+$('#about-button-link').click(() => scrollToAnchor('#about'))

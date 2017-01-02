@@ -7,5 +7,5 @@ section(id='landing' class='blue')
 
     div(class='row button-holder')
       div(class='center-align')
-        a(class='btn-floating btn-large waves-effect waves-light pink accent-2' href='#about')
+        a(class='btn-floating btn-large waves-effect waves-light pink accent-2' id='about-button-link')
           i(class='material-icons') arrow_drop_down_circle
