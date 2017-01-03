@@ -2,20 +2,14 @@ extends(src='layout.sgr')
   block(name='navbar')
     include(src='_alternate-header.sgr')
   block(name='content')
-    section(class='blue')
+    section(class='blue' id='page-404')
 
       div(class='container section-content')
 
         div(class='row')
           div(class='col s12 m6 offset-m3')
-            div(class='card')
-              div(class='card-image')
-                img(src='/img/thanks_contact.gif')
-              div(class='card-content')
-                p
-                | Your message has been received successfully.
-                | Our army of voluteers are working diligently & tirelessly
-                | to answer your questions!
+            div(class='card-panel hoverable')
+              img(src='/img/404.gif')
 
         div(class='row center-align return-button')
           a(href='/' class='btn-floating btn-large waves-effect waves-light red')

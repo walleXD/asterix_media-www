@@ -1,0 +1,4 @@
+header(id='header' class='navbar-fixed')
+  nav(class='blue')
+    div(class='nav-wrapper container'): a(href='/' class='brand-logo center')
+      img(src='img/compact_logo.png')
